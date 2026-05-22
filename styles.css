@@ -236,7 +236,7 @@ textarea {
     background: rgba(255, 255, 255, 0.88);
     box-shadow: 0 8px 18px rgba(13, 37, 85, 0.08);
     font-size: 0.85rem;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: 0;
 }
 
@@ -264,7 +264,7 @@ textarea {
     margin: 0.55rem 0 0;
     color: var(--blue);
     font-size: clamp(1.15rem, 1.8vw, 1.52rem);
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: -0.01em;
 }
 
@@ -405,7 +405,7 @@ textarea {
 .info-card span {
     color: var(--green);
     font-size: 2rem;
-    font-weight: 900;
+    font-weight: 600;
     letter-spacing: -0.015em;
     line-height: 0.9;
 }
@@ -421,7 +421,7 @@ textarea {
 .info-card h3 {
     margin: 0.15rem 0 1.4rem;
     font-size: 1.15rem;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: -0.01em;
     line-height: 1.1;
 }
@@ -459,7 +459,7 @@ textarea {
 .form-heading h2 {
     margin: 0;
     font-size: clamp(2rem, 4vw, 2.65rem);
-    font-weight: 900;
+    font-weight: 600;
     letter-spacing: -0.015em;
 }
 
@@ -487,7 +487,7 @@ textarea {
     gap: 0.75rem;
     margin-bottom: 0.68rem;
     color: #061653;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: 0;
 }
 
@@ -502,7 +502,7 @@ textarea {
     color: #fff;
     background: var(--blue);
     font-size: 1rem;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 input[type="text"],
@@ -579,7 +579,7 @@ textarea::placeholder {
     margin: 0 0 0.6rem;
     color: #061653;
     font-size: 0.91rem;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: -0.005em;
     line-height: 1.24;
 }
@@ -676,7 +676,7 @@ input[type="radio"]:checked {
     display: block;
     margin-bottom: 0.25rem;
     font-size: 0.9rem;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: -0.005em;
     line-height: 1.2;
 }
@@ -763,14 +763,14 @@ input[type="radio"]:checked {
     display: block;
     margin-bottom: 0.3rem;
     font-size: 2.2rem;
-    font-weight: 900;
+    font-weight: 600;
     letter-spacing: -0.025em;
 }
 
 .footer-brand p {
     margin: 0 0 1rem;
     font-size: 1.1rem;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: -0.01em;
     line-height: 1.25;
 }
@@ -788,7 +788,7 @@ input[type="radio"]:checked {
 .site-footer h2 {
     margin: 0 0 1rem;
     font-size: 1.18rem;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: -0.005em;
 }
 
@@ -844,7 +844,7 @@ input[type="radio"]:checked {
     display: block;
     margin: 0.95rem 0 0.75rem;
     font-size: 0.88rem;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: -0.005em;
 }
 
