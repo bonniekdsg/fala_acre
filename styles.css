@@ -514,6 +514,13 @@ textarea {
     color: var(--ink);
     box-shadow: inset 0 1px 0 rgba(7, 23, 71, 0.02);
     outline: 0;
+    transition: border-color 240ms ease, box-shadow 240ms ease;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: var(--green);
+    box-shadow: 0 0 0 3px rgba(21, 178, 93, 0.2), inset 0 1px 0 rgba(7, 23, 71, 0.02);
 }
 
 input[type="text"] {
