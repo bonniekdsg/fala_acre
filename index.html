@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fala, Acre! | Escuta Popular</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#inicio" aria-label="Alan Rick">
+            <img src="assets/logo_alan.webp" alt="" aria-hidden="true">
+        </a>
+
+        <a class="header-action" href="#formulario">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm8 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM8 13c-3.1 0-5.5 1.7-5.5 3.8V19h11v-2.2C13.5 14.7 11.1 13 8 13Zm8 0c-.8 0-1.5.1-2.2.3 1.3.9 2.2 2.1 2.2 3.5V19h5.5v-2.2c0-2.1-2.4-3.8-5.5-3.8Z"/>
+            </svg>
+            Participar da escuta
+        </a>
+    </header>
+
+    <main id="inicio">
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">
+                    <span></span>
+                    Escuta Popular · Plano de Governo
+                </p>
+
+                <h1 class="hero-title">
+                    <img src="assets/fala_acre.webp" alt="Fala, Acre!">
+                </h1>
+
+                <h2>Ouvindo você, construindo<br>o Acre da gente.</h2>
+
+                <div class="hero-actions">
+                    <a class="primary-button" href="#formulario">
+                        Quero contribuir
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M13.2 5.3 20 12l-6.8 6.7-1.9-1.9 3.6-3.6H4v-2.6h10.9l-3.6-3.5 1.9-1.8Z"/>
+                        </svg>
+                    </a>
+                    <div class="time-note">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="12" cy="12" r="9"></circle>
+                            <path d="M12 7v5l3.5 2"></path>
+                        </svg>
+                        <span>Leva cerca de<br>6 minutos</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual" aria-hidden="true">
+                <img class="hero-person" src="assets/foto_alan.webp" alt="">
+            </div>
+
+            <a class="scroll-cue" href="#cards" aria-label="Ver mais">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M11 4h2v12l4.5-4.5 1.4 1.4L12 19.8l-6.9-6.9 1.4-1.4L11 16V4Z"/>
+                </svg>
+            </a>
+        </section>
+
+        <section class="info-strip" id="cards" aria-label="Destaques da escuta">
+            <article class="info-card">
+                <img src="assets/icon01.webp" alt="" aria-hidden="true">
+                <div>
+                    <span>01</span>
+                    <h3>Quem participa</h3>
+                </div>
+                <p>Instituições, entidades de classe, associações, lideranças comunitárias, movimentos sociais, comunidades urbanas e rurais, setores produtivos e cidadãos dos 22 municípios do Acre.</p>
+            </article>
+
+            <article class="info-card">
+                <img src="assets/icon03.webp" alt="" aria-hidden="true">
+                <div>
+                    <span>02</span>
+                    <h3>Como funciona</h3>
+                </div>
+                <p>Você preenche um questionário simples, escolhendo prioridades por eixo temático e descrevendo os principais problemas da sua localidade.</p>
+            </article>
+
+            <article class="info-card">
+                <img src="assets/icon02.webp" alt="" aria-hidden="true">
+                <div>
+                    <span>03</span>
+                    <h3>Para que serve</h3>
+                </div>
+                <p>As contribuições ajudam a construir, de forma democrática e coletiva, o Plano de Governo do Acre.</p>
+            </article>
+        </section>
+
+        <section class="form-shell" id="formulario">
+            <div class="form-band" aria-hidden="true"></div>
+            <div class="form-heading">
+                <h2>Participe da Escuta Popular</h2>
+                <p>Sua contribuição será tratada com responsabilidade e ajudará a orientar prioridades para o Acre.</p>
+            </div>
+
+            <form class="survey-form">
+                <div class="field-block">
+                    <label for="instituicao"><span>1</span> Identificação da instituição/entidade</label>
+                    <input id="instituicao" name="instituicao" type="text" placeholder="Digite o nome da instituição, entidade ou organização">
+                </div>
+
+                <div class="field-block">
+                    <label for="responsavel"><span>2</span> Responsável pelo preenchimento</label>
+                    <input id="responsavel" name="responsavel" type="text" placeholder="Nome completo do responsável">
+                </div>
+
+                <div class="field-block">
+                    <label for="localidade"><span>3</span> Município, bairro, comunidade, ramal ou localidade</label>
+                    <input id="localidade" name="localidade" type="text" placeholder="Informe o município e a localidade">
+                </div>
+
+                <fieldset class="theme-section">
+                    <legend><span>4</span> Eixos temáticos</legend>
+                    <p>Marque até 1 opção por eixo. São 7 eixos no total. Escolha o tema que você considera mais urgente dentro de cada área.</p>
+
+                    <div class="axis-grid">
+                        <article class="axis-card axis-green">
+                            <h3><span>E1</span> Produção Familiar, Agronegócio e Desenvolvimento Econômico</h3>
+                            <label><input type="radio" name="e1" checked> Agricultura familiar, assistência técnica e crédito rural</label>
+                            <label><input type="radio" name="e1"> Agronegócio, pecuária e cadeias produtivas</label>
+                            <label><input type="radio" name="e1"> Regularização fundiária e segurança jurídica no campo</label>
+                            <label><input type="radio" name="e1"> Agroindustrialização, indústria e agregação de valor</label>
+                            <label><input type="radio" name="e1"> Bioeconomia, meio ambiente e resiliência climática</label>
+                            <label><input type="radio" name="e1"> Turismo, exportações, cooperativismo e acesso a mercados</label>
+                        </article>
+
+                        <article class="axis-card axis-yellow">
+                            <h3><span>E2</span> Infraestrutura, Saneamento e Integração Regional</h3>
+                            <label><input type="radio" name="e2"> Rodovias estaduais, federais e integração logística</label>
+                            <label><input type="radio" name="e2" checked> Ramais, estradas vicinais e infraestrutura rural</label>
+                            <label><input type="radio" name="e2"> Saneamento básico: água, esgoto, drenagem e resíduos sólidos</label>
+                            <label><input type="radio" name="e2"> Habitação, infraestrutura urbana e desenvolvimento municipal</label>
+                            <label><input type="radio" name="e2"> Mobilidade urbana, transporte e segurança viária</label>
+                            <label><input type="radio" name="e2"> Integração regional, fronteiras, aeroportos, ZPE e conectividade</label>
+                        </article>
+
+                        <article class="axis-card axis-blue">
+                            <h3><span>E3</span> Educação e Formação Técnica e Profissional</h3>
+                            <label><input type="radio" name="e3" checked> Educação básica e melhoria da aprendizagem</label>
+                            <label><input type="radio" name="e3"> Ensino técnico, formação profissional e qualificação para o trabalho</label>
+                            <label><input type="radio" name="e3"> Ensino superior, ciência, tecnologia e inovação</label>
+                            <label><input type="radio" name="e3"> Educação rural e acesso educacional no interior</label>
+                            <label><input type="radio" name="e3"> Educação especial, inclusão e permanência escolar</label>
+                            <label><input type="radio" name="e3"> Inclusão digital, conectividade e tecnologia nas escolas</label>
+                        </article>
+
+                        <article class="axis-card axis-green">
+                            <h3><span>E4</span> Inclusão Social e Cidadania</h3>
+                            <label><input type="radio" name="e4" checked> Assistência social, programas sociais e combate à pobreza</label>
+                            <label><input type="radio" name="e4"> Direitos humanos, cidadania e proteção de populações vulneráveis</label>
+                            <label><input type="radio" name="e4"> Juventude, esporte, cultura e participação social</label>
+                            <label><input type="radio" name="e4"> Políticas para mulheres e enfrentamento das desigualdades</label>
+                            <label><input type="radio" name="e4"> Povos indígenas, comunidades tradicionais e diversidade cultural</label>
+                            <label><input type="radio" name="e4"> Inclusão produtiva, economia solidária e geração de oportunidades</label>
+                        </article>
+
+                        <article class="axis-card axis-yellow">
+                            <h3><span>E5</span> Saúde e Qualidade de Vida</h3>
+                            <label><input type="radio" name="e5"> Atenção especializada, média e alta complexidade</label>
+                            <label><input type="radio" name="e5" checked> Urgência, emergência, pronto-socorro, SAMU e UPAs</label>
+                            <label><input type="radio" name="e5"> Hospitais regionais, regionalização e interiorização da saúde</label>
+                            <label><input type="radio" name="e5"> Saúde da mulher, da criança e atenção materno-infantil</label>
+                            <label><input type="radio" name="e5"> Saúde indígena, PCD e atendimento a públicos específicos</label>
+                            <label><input type="radio" name="e5"> Prevenção, mutirões de saúde e promoção da qualidade de vida</label>
+                        </article>
+
+                        <article class="axis-card axis-blue">
+                            <h3><span>E6</span> Segurança Pública, Justiça e Defesa de Fronteiras</h3>
+                            <label><input type="radio" name="e6" checked> Segurança pública e combate à criminalidade</label>
+                            <label><input type="radio" name="e6"> Defesa de fronteiras e combate ao narcotráfico</label>
+                            <label><input type="radio" name="e6"> Integração das forças de segurança e inteligência policial</label>
+                            <label><input type="radio" name="e6"> Monitoramento tecnológico: drones, satélites e sistemas de vigilância</label>
+                            <label><input type="radio" name="e6"> Sistema prisional, justiça e ressocialização</label>
+                            <label><input type="radio" name="e6"> Policiamento rural e proteção das comunidades do interior</label>
+                        </article>
+
+                        <article class="axis-card axis-green">
+                            <h3><span>ET</span> Governança, Planejamento e Inovação</h3>
+                            <label><input type="radio" name="et" checked> Planejamento estratégico, gestão por resultados e monitoramento</label>
+                            <label><input type="radio" name="et"> Finanças públicas, orçamento e qualidade do gasto</label>
+                            <label><input type="radio" name="et"> Valorização dos servidores e modernização administrativa</label>
+                            <label><input type="radio" name="et"> Previdência, sustentabilidade fiscal e equilíbrio das contas públicas</label>
+                            <label><input type="radio" name="et"> Transparência, controle, integridade e governança pública</label>
+                            <label><input type="radio" name="et"> Tecnologia, inovação, governo digital e uso de dados</label>
+                        </article>
+                    </div>
+                </fieldset>
+
+                <div class="field-block">
+                    <label for="prioridade"><span>5</span> Prioridade imediata</label>
+                    <textarea id="prioridade" name="prioridade" placeholder="Explique brevemente qual problema precisa de solução mais urgente."></textarea>
+                </div>
+
+                <div class="field-block">
+                    <label for="problema"><span>6</span> Problema mais grave da localidade</label>
+                    <textarea id="problema" name="problema" placeholder="Informe onde acontece, quem é mais afetado e há quanto tempo existe."></textarea>
+                </div>
+
+                <fieldset class="auth-section">
+                    <legend><span>7</span> Autorização de uso da resposta</legend>
+                    <div class="auth-grid">
+                        <label class="auth-card selected">
+                            <input type="radio" name="autorizacao" checked>
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 9V7A5 5 0 0 0 7 7v2H5v12h14V9h-2Zm-8 0V7a3 3 0 0 1 6 0v2H9Zm4 7.7V18h-2v-1.3a2 2 0 1 1 2 0Z"/></svg>
+                            <span><strong>Autorizo o uso da resposta</strong>Sem identificação pessoal obrigatória.</span>
+                        </label>
+                        <label class="auth-card">
+                            <input type="radio" name="autorizacao">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5Zm0 2c-4.4 0-8 2.2-8 5v2h16v-2c0-2.8-3.6-5-8-5Z"/></svg>
+                            <span><strong>Autorizo com identificação</strong>Minha resposta pode divulgar meu nome ou instituição.</span>
+                        </label>
+                        <label class="auth-card">
+                            <input type="radio" name="autorizacao">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 9V7A5 5 0 0 0 7 7v2H5v12h14V9h-2ZM9 7a3 3 0 0 1 6 0v2H9V7Zm7.5 10.1-1.4 1.4L12 15.4l-3.1 3.1-1.4-1.4 3.1-3.1-3.1-3.1 1.4-1.4 3.1 3.1 3.1-3.1 1.4 1.4-3.1 3.1 3.1 3.1Z"/></svg>
+                            <span><strong>Não autorizo divulgação pública</strong>Apenas análise interna.</span>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <div class="field-block">
+                    <label for="contato"><span>8</span> Contato para devolutiva</label>
+                    <input id="contato" name="contato" type="text" placeholder="Telefone, WhatsApp ou e-mail">
+                </div>
+
+                <div class="submit-area">
+                    <button type="submit">
+                        Enviar minha contribuição
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.8 3.2 2.9 10.5c-1 .4-.9 1.8.1 2.1l7 2.1 2.1 7c.3 1 1.7 1.1 2.1.1l7.3-18.9c.3-.9-.6-1.7-1.7-1.3Zm-8.5 14.6-1.2-4 4.8-4.8-6.1 3.9-4-1.2 11.5-4.5-5 10.6Z"/></svg>
+                    </button>
+                    <p>
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 9V7A5 5 0 0 0 7 7v2H5v12h14V9h-2ZM9 7a3 3 0 0 1 6 0v2H9V7Z"/></svg>
+                        Ao enviar, suas respostas serão tratadas com responsabilidade e contribuirão para o relatório da Escuta Popular.
+                    </p>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top"></div>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <img src="assets/logo_alan.webp" alt="" aria-hidden="true">
+                <div>
+                    <strong>Alan Rick</strong>
+                    <p>Escuta Popular · Plano de Governo</p>
+                    <span>Ouvindo você, construindo o Acre da gente.</span>
+                </div>
+            </div>
+
+            <nav aria-label="Links do rodapé">
+                <h2>Participe</h2>
+                <a href="#formulario">Quero contribuir <span>›</span></a>
+                <a href="#cards">Como funciona <span>›</span></a>
+                <a href="#">Política de Privacidade <span>›</span></a>
+            </nav>
+
+            <div class="footer-contact">
+                <h2>Contato</h2>
+                <p>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm-.4 4.2-7.6 5-7.6-5V6.8l7.6 5 7.6-5v1.4Z"/></svg>
+                    contato@alanrick.com.br
+                </p>
+                <p>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.7 3.9 5.2 6.6 6.6l2.2-2.2c.3-.3.8-.4 1.2-.3 1.3.4 2.7.7 4.1.7.7 0 1.3.6 1.3 1.3v3.5c0 .7-.6 1.3-1.3 1.3C10.4 21.7 2.3 13.6 2.3 3.3 2.3 2.6 2.9 2 3.6 2h3.5c.7 0 1.3.6 1.3 1.3 0 1.4.2 2.8.7 4.1.1.4 0 .9-.3 1.2l-2.2 2.2Z"/></svg>
+                    (68) 99999-0000
+                </p>
+                <span>Siga nossas redes</span>
+                <div class="socials" aria-label="Redes sociais">
+                    <a href="#" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-3.3 0-5 2-5 5v3H6v4h3v6h4v-6h3.2l.8-4h-4V9c0-.7.3-1 1-1Z"/></svg>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.25-2.4a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/></svg>
+                    </a>
+                    <a href="#" aria-label="YouTube">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 7.2s-.2-1.6-.8-2.3c-.8-.9-1.7-.9-2.1-1C15.8 3.7 12 3.7 12 3.7s-3.8 0-6.7.2c-.4.1-1.3.1-2.1 1-.6.7-.8 2.3-.8 2.3S2.2 9 2.2 10.8v1.7c0 1.8.2 3.6.2 3.6s.2 1.6.8 2.3c.8.9 1.9.9 2.4 1 1.7.2 6.4.2 6.4.2s3.8 0 6.7-.3c.4 0 1.3 0 2.1-.9.6-.7.8-2.3.8-2.3s.2-1.8.2-3.6v-1.7c0-1.8-.2-3.6-.2-3.6ZM10 15.2V8.8l5.8 3.2L10 15.2Z"/></svg>
+                    </a>
+                    <a href="#" aria-label="X">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 10.4 22.2 2h-1.8l-6.5 7.3L8.7 2H2.8l7.9 11.2L2.8 22h1.8l6.9-7.7 5.5 7.7h5.9l-8.2-11.6Zm-2.4 2.7-.8-1.1L5.1 3.3h2.8l5.1 7.1.8 1.1 6.8 9.2h-2.8l-5.5-7.6Z"/></svg>
+                    </a>
+                    <a href="#" aria-label="WhatsApp">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a9.7 9.7 0 0 0-8.4 14.6L2.3 22l5.6-1.3A9.7 9.7 0 1 0 12 2Zm0 2a7.7 7.7 0 0 1 6.6 11.7A7.7 7.7 0 0 1 8.2 18.8l-.4-.2-2.7.7.7-2.6-.3-.4A7.7 7.7 0 0 1 12 4Zm-3.1 4.1c-.2 0-.5.1-.7.3-.2.3-.8.8-.8 2 0 1.2.9 2.4 1 2.6.1.1 1.7 2.7 4.2 3.7 2.1.8 2.5.6 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.4l-1.8-.9c-.3-.1-.5-.1-.7.2l-.7.9c-.2.2-.3.2-.6.1-.3-.1-1.1-.4-2.1-1.3-.8-.7-1.3-1.6-1.5-1.9-.1-.2 0-.4.1-.5l.4-.5c.1-.1.2-.3.3-.5.1-.2 0-.4 0-.5l-.8-1.9c-.2-.5-.4-.5-.7-.5Z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">© 2026 Fala, Acre! · Escuta Popular · Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
